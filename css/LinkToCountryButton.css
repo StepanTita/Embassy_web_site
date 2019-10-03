@@ -1,0 +1,21 @@
+.links-to-countries{
+  background: rgba(255, 255, 255, 0);
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  border-radius: 30px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+}
+.links-to-countries:hover{
+  background: #1AAB8A;
+  color: #fff;
+  border-color: #1AAB8A;
+}

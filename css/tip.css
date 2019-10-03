@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400");
+
+
+.tooltip {
+  position: relative;
+  /*background: #ff3466;*/
+  padding: 5px 0 5px 8px;
+  margin: 5px;
+  font-size: 15px;
+  border-radius: 100%;
+  color: #FFF;
+  z-index: 12;
+  opacity: 1 !important;
+}
+
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  content: '';
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.tooltip:before {
+  border-width: 10px 8px 0 8px;
+  border-style: solid;
+  border-color: #ff3466 transparent transparent transparent;
+  /*transform: translateY(20px);*/
+  transform: rotate(180deg);
+  top: 30px;
+  right: 20px;
+}
+
+.tooltip:after {
+  content: attr(data-tooltip);
+  background: #ff3466;
+  width: 160px;
+  height: 50px;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transform: translateY(20px);
+  top:40px;
+  right: 15px;
+}
+
+.tooltip.special:after{
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.tooltip.special:before{
+  opacity: 1;
+  transform: translateY(-2px);
+  transform: rotate(180deg);
+}
+
+/*.tooltip:hover::before,
+.tooltip:hover::after {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.tooltip:hover::before{
+  transform: rotate(180deg);
+}*/
+
+@keyframes shake {
+  0% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  70% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+#anim.rot {
+  animation: shake 500ms ease-in-out backwards;
+}

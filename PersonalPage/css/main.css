@@ -1,0 +1,35 @@
+#colorlib-logo:hover{
+	text-decoration: underline !important;
+	color: #666 !important;
+}
+
+#colorlib-logo a{
+	text-decoration: inherit;
+	color: inherit !important; 
+}
+.addr{
+	margin-bottom: 15px !important;
+}
+
+.change-data{
+	margin-bottom: 22px !important;
+}
+
+#colorlib-aside{
+	height: 100vh !important;
+}
+
+.btn-hire:hover{
+	background-color: #16a085;
+}
+
+.continue{
+	text-decoration: underline;
+	color: #4286f4;
+	font-size: 18pt;
+}
+
+.continue:hover{
+	color: blue !important;
+	cursor: pointer;
+}

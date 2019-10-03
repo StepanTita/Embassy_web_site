@@ -1,0 +1,30 @@
+.cont{
+	position: absolute;
+	z-index: 5000;
+	width: 100%;
+}
+.company-name{
+	font-family: "Verdana";
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 33pt;
+	font-weight:  lighter !important;
+	margin-bottom: 45px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+hr{
+	border-color: #666;
+	opacity: 0.4;
+}
+
+.title{
+	text-decoration: underline;
+	color: black;
+
+}
+
+.slider-text-inner{
+	padding-right: 0 !important;
+}

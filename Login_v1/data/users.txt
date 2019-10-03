@@ -1,0 +1,8 @@
+stefan.tita@mail.ru:test:Lol;
+test@mail.ru:test:Kek;
+stepun.tita@gmail.com:test:Cheburek;
+tita26@mail.ru:test:Stas;
+
+hello@mail.ru:test:Heh;
+new@mail.ru:test:Kitten;
+kiki@mail.ru:test:Kiki;
